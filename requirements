@@ -1,7 +1,7 @@
 langchain
 langchain-community
 streamlit
-streamlit_chat
+streamlit-chat
 wikipedia
 langchain-text-splitters
 tiktoken

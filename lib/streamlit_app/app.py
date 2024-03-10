@@ -1,7 +1,6 @@
 import pathlib
 import sys
 import streamlit as st
-import streamlit as st
 from streamlit_chat import message
 tool_path = f"{pathlib.Path().resolve().parents[0]}/tools"
 sys.path.append(tool_path)
