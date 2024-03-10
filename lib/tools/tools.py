@@ -7,14 +7,8 @@ from query import get_wiki_entry
 from langchain.chains import RetrievalQA
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_pinecone import Pinecone as PineconeStore
-#from dotenv import load_dotenv
 
-#load_dotenv()
-
-open_key = os.environ.get("OPEN_API_KEY")
-pine_key = os.environ.get("PINE_API_KEY")
-os.environ["PINECONE_API_KEY"] = pine_key
-embeddings = OpenAIEmbeddings(openai_api_key=open_key, model="text-embedding-3-large", dimensions=1024)
+embeddings = OpenAIEmbeddings(model="text-embedding-3-large", dimensions=1024)
 
 
 def get_tokens(wiki_articles):
