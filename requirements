@@ -1,0 +1,10 @@
+langchain
+langchain-community
+streamlit
+streamlit_chat
+wikipedia
+langchain-text-splitters
+tiktoken
+langchain-pinecone
+python-dotenv
+openai
